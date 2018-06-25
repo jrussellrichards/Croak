@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.javier.tarea1.MainActivity">
+
+    android:background
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pantano2">
+    </RelativeLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Restart" />
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/espacio1"
+                android:layout_width="35dp"
+                android:layout_height="207dp"
+                android:src="@drawable/ranita"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+            <ImageView
+                android:id="@+id/espacio2"
+                android:layout_width="35dp"
+                android:layout_height="207dp"
+                android:src="@drawable/ranita"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/espacio3"
+                android:layout_width="35dp"
+                android:layout_height="207dp"
+                android:src="@drawable/ranita"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/espacio4"
+                android:layout_width="35dp"
+                android:layout_height="207dp"
+                android:src="@drawable/ranita"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/espacio5"
+                android:layout_width="45dp"
+                android:layout_height="207dp"
+
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+
+            <ImageView
+                android:id="@+id/espacio6"
+                android:layout_width="45dp"
+                android:layout_height="207dp"
+                android:src="@drawable/sapito"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+            <ImageView
+                android:id="@+id/espacio7"
+                android:layout_width="45dp"
+                android:layout_height="207dp"
+                android:src="@drawable/sapito"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+            <ImageView
+                android:id="@+id/espacio8"
+                android:layout_width="45dp"
+                android:layout_height="207dp"
+                android:src="@drawable/sapito"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+            <ImageView
+                android:id="@+id/espacio9"
+                android:layout_width="45dp"
+                android:layout_height="207dp"
+                android:src="@drawable/sapito"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </TableRow>
+
+
+    </TableLayout>
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
